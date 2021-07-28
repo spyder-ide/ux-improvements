@@ -18,7 +18,7 @@
 A dialog is a interface component that interrupts an experience to provide information that requires immediate user input. 
 In other communities, they are also called "pop-ups" or modals.
 
-![Diagram of a dialog with a heading, body text, an image, and buttons](/images/dialogs/diagram.png)
+![Diagram of a dialog with a heading, body text, an image, and buttons](images/dialogs/diagram.png)
 
 ## How should it be used?
 
@@ -56,18 +56,18 @@ Spyder already has several dialogs for you to base designs off of.
 
 The tour dialog is a good example of a simple dialog that has and image, text, and two buttons. Whenever possible, use this style.
 
-![The Spyder tour dialog titled Welcome to Spyder! with a map illustration and two buttons Start Tour or Dismiss](/images/dialogs/tour-dark.png)
+![The Spyder tour dialog titled Welcome to Spyder! with a map illustration and two buttons Start Tour or Dismiss](images/dialogs/tour-dark.png)
 
 The Kite dialog is a good example if your dialog needs to hold more information. 
 This still has the basic components, but shows how you might make space for longer dialogs when necessary.
 
-![The Kite dialog titled Get better code completions in Spyder with a screenshot of Kite's code predictions and buttons Install Kite or Dismiss](/images/dialogs/kite-dark.png)
+![The Kite dialog titled Get better code completions in Spyder with a screenshot of Kite's code predictions and buttons Install Kite or Dismiss](images/dialogs/kite-dark.png)
 
 While Spyder's Preferences is also a dialog, the complexity of it holds should not be used in standard dialogs. 
 If a dialog needs that much information, it may belong as a section of the existing Preferences dialog or another menu. 
 It is not recommended to create another dialog with this much content.
 
-![The Spyder Preferences dialog with a list of customizable areas and the main content for Apperance selected](/images/dialogs/preferences1-dark.png)
+![The Spyder Preferences dialog with a list of customizable areas and the main content for Apperance selected](images/dialogs/preferences1-dark.png)
 
 ### Accessibility
 
@@ -87,7 +87,7 @@ Please consider the following:
 While they are not required, most dialogs in Spyder have an image that helps users quickly understand the purpose of the dialog. 
 For example, error dialogs usually include a stop sign so a user can tell before reading that something is broken.
 
-![The missing dependencies dialog titled You have missing dependencies! with a list of errors and the button OK](/images/dialogs/missing-dark.png)
+![The missing dependencies dialog titled You have missing dependencies! with a list of errors and the button OK](images/dialogs/missing-dark.png)
 
 Do use images to:
 - Quickly summarize a dialog's content
@@ -109,17 +109,17 @@ Since many already exist in Spyder, this is a good first choice.
 Icons should follow the icon guidelines (Needs link). 
 Do not use icons that already exist in Spyder in a way that the could conflict with their existing use.
 
-![File, wrench, and alert icons](/images/dialogs/icons.png)
+![File, wrench, and alert icons](images/dialogs/icons.png)
 
 Illustrations should follow the illustration guidelines (Needs link). 
 
-![Telescope, file with ribbon, and map illustrations](/images/dialogs/illustrations.png)
+![Telescope, file with ribbon, and map illustrations](images/dialogs/illustrations.png)
 
 Screen shots are best used when a dialog needs to describe something specific about an interface. 
 Screen shots should be kept compact with their longest side no more than double its shortest side. 
 The closer you can have the screenshot be to a square (1:1 ratio), the better.
 
-![Screenshot of Kite's code predictions in an editor](/images/dialogs/screenshots.png)
+![Screenshot of Kite's code predictions in an editor](images/dialogs/screenshots.png)
 
 
 ## Details
